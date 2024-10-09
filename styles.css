@@ -1,0 +1,46 @@
+html,
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body > div{
+    width: 100%;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-bar{
+    display: flex;
+    height: 64px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    flex-grow: 2;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo > a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.menu-item{
+    flex-grow: 1;
+}
+
+.menu-item > a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
