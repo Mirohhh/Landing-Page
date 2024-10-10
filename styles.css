@@ -170,3 +170,34 @@ div.ic{
     border: 4px solid #3882f6;
     border-radius: 16px;
 }
+
+div.quote{
+    background-color: #e5e7eb;
+    padding: 8% 0%;
+}
+
+.quote-out{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 24%;
+}
+
+.quote-p > p{
+    margin: 0px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-c{
+    align-self: flex-end;
+    margin-right: 8%;
+}
+
+.quote-c > h3{
+    font-size: 24px;
+    margin: 0px;
+}
