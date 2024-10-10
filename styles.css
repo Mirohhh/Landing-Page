@@ -151,6 +151,7 @@ div.info-card-container{
     display: flex;
     gap: 48px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 div.info-card{
