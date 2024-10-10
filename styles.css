@@ -23,12 +23,6 @@ body > div{
     display: flex;
     align-items: stretch;
     justify-content: space-between;
-    gap: 1px;
-
-}
-
-.img-placeholder{
-    margin: auto;
 }
 
 .right-section{
@@ -38,8 +32,9 @@ body > div{
     padding: 2%;
     border-radius: 16px;
     background-color: darkslategray;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 12%;
+    padding-right: 12%;
+    flex-shrink: 0;
 }
 
 .left-section{
