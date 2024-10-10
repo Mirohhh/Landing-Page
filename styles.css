@@ -105,7 +105,7 @@ a{
     color: #e5e7eb;
 }
 
-button{
+.left-section>button{
     margin-top: 8px;
     font-size: 18px;
     font-weight: bold;
@@ -118,7 +118,7 @@ button{
     box-shadow: 0px 5px 5px #131c28;
 }
 
-button:hover{
+.left-section>button:hover{
     color: #d8dad6;
     background-color: #296ad2;
 }
@@ -200,4 +200,59 @@ div.quote{
 .quote-c > h3{
     font-size: 24px;
     margin: 0px;
+}
+
+div.call{
+    background-color: #f9faf8;
+}
+
+.call-out{
+    padding: 6% 16%;
+}
+
+.sec{
+    padding: 2% 4%;
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-txt>h2{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 28px;
+}
+
+.sec-txt>p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 4px;
+    margin-bottom: 28px;
+}
+
+.sec>button{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    padding: 1% 4%;
+}
+
+.sec>button:hover{
+    color: #3882f6;
+    background-color: #f9faf8;
+    box-shadow: 0px 5px 5px #296ad2;
 }
