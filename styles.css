@@ -23,18 +23,17 @@ body > div{
     display: flex;
     align-items: stretch;
     justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 
 .right-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2%;
     border-radius: 16px;
-    background-color: darkslategray;
-    padding-left: 12%;
-    padding-right: 12%;
     flex-shrink: 0;
+    background-image: url(images/mountain.jpg);
+    background-size: cover;
+    min-width: 800px;
+    min-height: 400px;
 }
 
 .left-section{
@@ -49,10 +48,6 @@ body > div{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-}
-
-p.placeholder{
-    color: #e5e7eb;
 }
 
 p.hero-subtext{
@@ -78,6 +73,7 @@ div.nav{
 @media (max-width: 850px){
     .hero-content-inter{
         flex-direction: column-reverse;
+        gap: 16px;
     }
 }
 
@@ -165,6 +161,8 @@ div.ic{
     height: 160px;
     border: 4px solid #3882f6;
     border-radius: 16px;
+    background-image: url(images/square-mountain.jpg);
+    background-size: cover;
 }
 
 div.quote{
